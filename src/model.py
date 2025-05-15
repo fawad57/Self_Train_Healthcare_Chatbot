@@ -67,7 +67,7 @@ class DiseasePredictor:
         return self.feature_names
 
     def print_disease(self, node):
-        """Decode disease names from decision tree node values.
+        """Decode disease names from a decision tree node values.
         Args:
             node: Node value array from decision tree.
         Returns:
